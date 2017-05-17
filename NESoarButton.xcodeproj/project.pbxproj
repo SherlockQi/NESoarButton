@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECEB2121ECC4D9B0043D544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEB2111ECC4D9B0043D544 /* AppDelegate.swift */; };
+		8ECEB2141ECC4D9B0043D544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEB2131ECC4D9B0043D544 /* ViewController.swift */; };
+		8ECEB2171ECC4D9B0043D544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB2151ECC4D9B0043D544 /* Main.storyboard */; };
+		8ECEB2191ECC4D9B0043D544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */; };
+		8ECEB21C1ECC4D9B0043D544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB21A1ECC4D9B0043D544 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ECEB20E1ECC4D9B0043D544 /* NESoarButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESoarButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECEB2111ECC4D9B0043D544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ECEB2131ECC4D9B0043D544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ECEB2161ECC4D9B0043D544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ECEB21B1ECC4D9B0043D544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ECEB21D1ECC4D9B0043D544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECEB20B1ECC4D9B0043D544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECEB2051ECC4D9B0043D544 = {
+			isa = PBXGroup;
+			children = (
+				8ECEB2101ECC4D9B0043D544 /* NESoarButton */,
+				8ECEB20F1ECC4D9B0043D544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECEB20F1ECC4D9B0043D544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECEB20E1ECC4D9B0043D544 /* NESoarButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECEB2101ECC4D9B0043D544 /* NESoarButton */ = {
+			isa = PBXGroup;
+			children = (
+				8ECEB2111ECC4D9B0043D544 /* AppDelegate.swift */,
+				8ECEB2131ECC4D9B0043D544 /* ViewController.swift */,
+				8ECEB2151ECC4D9B0043D544 /* Main.storyboard */,
+				8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */,
+				8ECEB21A1ECC4D9B0043D544 /* LaunchScreen.storyboard */,
+				8ECEB21D1ECC4D9B0043D544 /* Info.plist */,
+			);
+			path = NESoarButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECEB20D1ECC4D9B0043D544 /* NESoarButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECEB2201ECC4D9B0043D544 /* Build configuration list for PBXNativeTarget "NESoarButton" */;
+			buildPhases = (
+				8ECEB20A1ECC4D9B0043D544 /* Sources */,
+				8ECEB20B1ECC4D9B0043D544 /* Frameworks */,
+				8ECEB20C1ECC4D9B0043D544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESoarButton;
+			productName = NESoarButton;
+			productReference = 8ECEB20E1ECC4D9B0043D544 /* NESoarButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECEB2061ECC4D9B0043D544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sherlock;
+				TargetAttributes = {
+					8ECEB20D1ECC4D9B0043D544 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L9DG35QM73;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8ECEB2091ECC4D9B0043D544 /* Build configuration list for PBXProject "NESoarButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECEB2051ECC4D9B0043D544;
+			productRefGroup = 8ECEB20F1ECC4D9B0043D544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECEB20D1ECC4D9B0043D544 /* NESoarButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECEB20C1ECC4D9B0043D544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECEB21C1ECC4D9B0043D544 /* LaunchScreen.storyboard in Resources */,
+				8ECEB2191ECC4D9B0043D544 /* Assets.xcassets in Resources */,
+				8ECEB2171ECC4D9B0043D544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECEB20A1ECC4D9B0043D544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECEB2141ECC4D9B0043D544 /* ViewController.swift in Sources */,
+				8ECEB2121ECC4D9B0043D544 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ECEB2151ECC4D9B0043D544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECEB2161ECC4D9B0043D544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ECEB21A1ECC4D9B0043D544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECEB21B1ECC4D9B0043D544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ECEB21E1ECC4D9B0043D544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ECEB21F1ECC4D9B0043D544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECEB2211ECC4D9B0043D544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9DG35QM73;
+				INFOPLIST_FILE = NESoarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sherlock.NESoarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8ECEB2221ECC4D9B0043D544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9DG35QM73;
+				INFOPLIST_FILE = NESoarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sherlock.NESoarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECEB2091ECC4D9B0043D544 /* Build configuration list for PBXProject "NESoarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB21E1ECC4D9B0043D544 /* Debug */,
+				8ECEB21F1ECC4D9B0043D544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECEB2201ECC4D9B0043D544 /* Build configuration list for PBXNativeTarget "NESoarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECEB2211ECC4D9B0043D544 /* Debug */,
+				8ECEB2221ECC4D9B0043D544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECEB2061ECC4D9B0043D544 /* Project object */;
+}
