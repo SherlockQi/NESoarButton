@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let rect = CGRect(x: 0, y: 500, width: kScreenWidth(), height: 80)
         let soarButton = NEFunctionBar(frame: rect)
         soarButton.backgroundColor = .red
+        soarButton.delegate = self
         view.addSubview(soarButton)
     }
 
@@ -25,5 +26,12 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController:NEFunctionBarDelegate{
+    func functionBarDelegate(tag: Int) {
+        
+        print(tag)
+    }
 }
 

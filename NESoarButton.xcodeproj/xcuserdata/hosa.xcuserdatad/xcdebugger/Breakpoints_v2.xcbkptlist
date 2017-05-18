@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NESoarButton/NEFunctionBar.swift"
-            timestampString = "516789457.383802"
+            filePath = "NESoarButton/ViewController.swift"
+            timestampString = "516791000.293852"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "barStretch()"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "functionBarDelegate(tag:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
