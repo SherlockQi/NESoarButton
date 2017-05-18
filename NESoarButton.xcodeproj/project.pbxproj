@@ -12,6 +12,9 @@
 		8ECEB2171ECC4D9B0043D544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB2151ECC4D9B0043D544 /* Main.storyboard */; };
 		8ECEB2191ECC4D9B0043D544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */; };
 		8ECEB21C1ECC4D9B0043D544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECEB21A1ECC4D9B0043D544 /* LaunchScreen.storyboard */; };
+		8ECEB2241ECC4DCC0043D544 /* NEFunctionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEB2231ECC4DCC0043D544 /* NEFunctionBar.swift */; };
+		8ECEB2261ECC4DFC0043D544 /* UIView+NEPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEB2251ECC4DFC0043D544 /* UIView+NEPlus.swift */; };
+		8ECEB2281ECC4E850043D544 /* UIView+Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEB2271ECC4E850043D544 /* UIView+Rect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECEB21B1ECC4D9B0043D544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECEB21D1ECC4D9B0043D544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECEB2231ECC4DCC0043D544 /* NEFunctionBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEFunctionBar.swift; sourceTree = "<group>"; };
+		8ECEB2251ECC4DFC0043D544 /* UIView+NEPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NEPlus.swift"; sourceTree = "<group>"; };
+		8ECEB2271ECC4E850043D544 /* UIView+Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				8ECEB2111ECC4D9B0043D544 /* AppDelegate.swift */,
 				8ECEB2131ECC4D9B0043D544 /* ViewController.swift */,
+				8ECEB2271ECC4E850043D544 /* UIView+Rect.swift */,
+				8ECEB2251ECC4DFC0043D544 /* UIView+NEPlus.swift */,
+				8ECEB2231ECC4DCC0043D544 /* NEFunctionBar.swift */,
 				8ECEB2151ECC4D9B0043D544 /* Main.storyboard */,
 				8ECEB2181ECC4D9B0043D544 /* Assets.xcassets */,
 				8ECEB21A1ECC4D9B0043D544 /* LaunchScreen.storyboard */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECEB2241ECC4DCC0043D544 /* NEFunctionBar.swift in Sources */,
+				8ECEB2261ECC4DFC0043D544 /* UIView+NEPlus.swift in Sources */,
 				8ECEB2141ECC4D9B0043D544 /* ViewController.swift in Sources */,
 				8ECEB2121ECC4D9B0043D544 /* AppDelegate.swift in Sources */,
+				8ECEB2281ECC4E850043D544 /* UIView+Rect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

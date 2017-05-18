@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let rect = CGRect(x: 0, y: 500, width: kScreenWidth(), height: 80)
+        let soarButton = NEFunctionBar(frame: rect)
+        soarButton.backgroundColor = .red
+        view.addSubview(soarButton)
     }
 
     override func didReceiveMemoryWarning() {
