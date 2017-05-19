@@ -25,7 +25,7 @@ class NEFunctionBar: UIView {
     var delegate:NEFunctionBarDelegate?
     
     
-    var buttonNameS = ["T","O","K","Y","O","is","H","O","T"]
+    var buttonNameS = ["I","L","O","V","E","Y","O","U","M","Y","B","B"]
     var showViewH:CGFloat  = 50
     var soarButtonH:CGFloat     = 50
     var margin:CGFloat  = 10
@@ -71,7 +71,7 @@ class NEFunctionBar: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .red
+//        backgroundColor = .red
         addSubview(functionShowView)
         addSubview(soarButton)
 
