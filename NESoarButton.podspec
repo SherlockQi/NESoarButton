@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/SherlockQi/NESoarButton"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "SHERLOCK" => "xiaqi90@163.com" }
-  s.source       = { :git => "https://github.com/SherlockQi/NESoarButton.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SherlockQi/NESoarButton.git", :tag => "s.version.to_s" }
   s.source_files  = 'NESoarButton/NEFunctionBar'
 #s.exclude_files = "NESoarButton/NEFunctionBar"
 
