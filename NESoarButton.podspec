@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "SHERLOCK" => "xiaqi90@163.com" }
   s.source       = { :git => "https://github.com/SherlockQi/NESoarButton.git", :tag => "0.0.1" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'NESoarButton/NEFunctionBar'
+#s.exclude_files = "NESoarButton/NEFunctionBar"
 
     s.ios.deployment_target = '9.0'
 
